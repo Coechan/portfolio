@@ -1,0 +1,164 @@
+body{
+    color: #f9b4a7;
+     /* font-family: 'Cutive Mono', monospace;
+    font-family: 'Open Sans', sans-serif; */
+    font-family:'Nunito', sans-serif;;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar{
+    width: 100%;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item{
+    margin: 2% 3%;
+}
+
+.navbar-flower{
+    font-size: 30px;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: #eda496;
+}
+
+.navbar-link:hover{
+    text-decoration: none;
+    color: #b97c70;
+}
+
+.banner{
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(176, 55, 55, 0.2), 0 6px 20px 0 rgba(212, 90, 90, 0.19);
+    border-radius: 10px;
+}
+
+.wrapper{
+    /* margin: 0 20%; */
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-title{
+    font-size: 35px;
+}
+
+.main-introdution{
+    font-size: 30px;
+}
+
+.section-title{
+    background-color: whitesmoke;
+
+}
+
+.section-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 10%;
+    
+}
+
+.box{
+    background-color: #facac2;
+    width: 50%;
+}
+
+.box-first{
+    width: 100%;
+    display: flex;
+    
+}
+
+.box-second{
+   width: 60%;
+}
+
+.box-third{
+    width: 40%;
+}
+
+.box.fourth{
+    width: 30%;
+}
+
+.box-fifth{
+    width: 30%;
+}
+
+.section-img{
+    height: 300px;
+    width: 50%;
+}
+
+.encrypter{
+    height: 300px;
+    background-image: url(../Img/encrypter2.png);
+    background-size: contain;
+    width: 43%;
+}
+
+.encrypter:hover{
+    background-image: none;
+    color: white;
+}
+
+.section-text{
+    width: 57%;
+    color: white;
+}
+
+.footer-elements{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-elements-items{
+    margin:2%;
+}
+
+.footer-items-links{
+    text-decoration: none;
+    color: #eda496;
+}
+
+.footer-navbar{
+    display: none;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    width: 80%;
+    color:#eda496;
+    cursor: pointer;
+    padding: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #b97c70;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
