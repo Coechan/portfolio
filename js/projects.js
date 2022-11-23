@@ -5,7 +5,7 @@ const nav4 = document.querySelector('.contact')
 
 const p1 = document.querySelector('.oracle');
 const p2 = document.querySelector('.oracle-encrypter')
-const p3 = document.querySelector('.languajes')
+const p3 = document.querySelector('.code')
 const p4 = document.getElementById('first-project')
 const p10 = document.querySelector('.hangotaku')
 const p11 = document.getElementById('second-project')
@@ -50,7 +50,7 @@ roughProjects.forEach( (item) => {
   setTimeout( () =>{
     item.show();
   }, time)
-  time = time + 900;
+  time = time + 600;
 })
 
 

@@ -39,7 +39,7 @@ body{
 }
 
 .banner{
-    background-image: url('/img/banner.png');
+    background-image: url("../img/banner.png");
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,11 +213,12 @@ width: 100%;
 
 .cv-button{
     border: none;
-    background-color: white;
     color: #555050;
     font-size: 20px;
     letter-spacing: 3px;
     margin-bottom: 10%;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 
