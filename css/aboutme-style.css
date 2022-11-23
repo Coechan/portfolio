@@ -2,21 +2,19 @@
     margin: 0 15%;
 }
 
-.aboutme-img{
+.banner{
+    background-image: url('/img/banner.png');
     height: 500px;
-    background-image: url("../Img/desktop-resize.png");
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 250ms;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(176, 55, 55, 0.2), 0 6px 20px 0 rgba(212, 90, 90, 0.19);
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 
-.aboutme-img:hover{
-    transition-delay: 250ms;
-    width: 100%;
-    background-image: url("../Img/esktop-with-computer-large-2.png");
+.aboutme-title{
+    margin-top: 2%;
+    font-size: 35px;
 }
 
 .aboutme-text{
@@ -37,4 +35,20 @@
 
 .hidden{
     display: none;
+}
+
+.aboutme-img{
+    height: 500px;
+    background-image: url("../Img/desktop-resize.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 250ms;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutme-img:hover{
+    transition-delay: 250ms;
+    width: 100%;
+    background-image: url("../Img/esktop-with-computer-large-2.png");
 }
