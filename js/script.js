@@ -1,22 +1,3 @@
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-;
 
 const n1 = document.querySelector('.highlight1');
 const n2 = document.querySelector('.highlight2');
@@ -28,7 +9,7 @@ const n7 = document.querySelector('.projects')
 const n8 = document.querySelector('.education');
 const n9 = document.querySelector('.contact')
 
-let roughElements = []
+const roughElements = []
 let seconds = 0;
 
 roughElements.push(RoughNotation.annotate(n6, { type: 'highlight', color: 'lavender' , multiline: true}));
@@ -49,6 +30,8 @@ roughElements.forEach( (item) => {
   }, seconds)
   seconds = seconds + 700;
 })
+
+
 
 // a1.show();
 // a2.show();

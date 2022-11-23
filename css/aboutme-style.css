@@ -1,16 +1,4 @@
-.wrapper{
-    margin: 0 15%;
-}
 
-.banner{
-    background-image: url('/img/banner.png');
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 70%;
-    box-shadow: 0 4px 8px 0 rgba(176, 55, 55, 0.2), 0 6px 20px 0 rgba(212, 90, 90, 0.19);
-    border-radius: 10px;
-}
 
 .aboutme-title{
     margin-top: 2%;
@@ -25,7 +13,8 @@
 
 .aboutme-links{
     text-decoration: none;
-    color: #eda496;
+    color: #555050;
+    font-weight: bolder;
 }
 
 .aboutme-links:hover{

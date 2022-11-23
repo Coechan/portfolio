@@ -1,5 +1,5 @@
 body{
-    color: #f9b4a7;
+    color: #555050;
      /* font-family: 'Cutive Mono', monospace;
     font-family: 'Open Sans', sans-serif; */
     font-family:'Nunito', sans-serif;;
@@ -11,6 +11,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
 .navbar{
     width: 100%;
     font-size: 20px;
@@ -29,7 +30,7 @@ body{
 
 .navbar-link{
     text-decoration: none;
-    color: #eda496;
+    color: #555050;
 }
 
 .navbar-link:hover{
@@ -37,84 +38,191 @@ body{
     color: #b97c70;
 }
 
+.banner{
+    background-image: url('/img/banner.png');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
 
 .wrapper{
-    /* margin: 0 20%; */
+    margin: 0 20%;
     display: flex;
     justify-content:center ;
     flex-direction: column;
     text-align: center;
+    
 }
 
-.main-title{
+/* about me */
+
+.aboutme-title{
+    margin-top: 2%;
     font-size: 35px;
 }
 
+.aboutme-text{
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.aboutme-links{
+    text-decoration: none;
+    color: #555050;
+    font-weight: bolder;
+}
+
+.aboutme-links:hover{
+    text-decoration: none;
+    color: #b97c70;
+}
+
+.hidden{
+    display: none;
+}
+
+.aboutme-img{
+    height: 500px;
+    background-image: url("../Img/desktop-resize.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 250ms;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutme-img:hover{
+    transition-delay: 250ms;
+    width: 100%;
+    background-image: url("../Img/esktop-with-computer-large-2.png");
+}
+
+/*projects */
+
+.main-title{
+    font-size: 35px;
+    letter-spacing: 8px;
+}
+
 .main-introdution{
-    font-size: 30px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .section-title{
-    background-color: whitesmoke;
-
+    font-size: 30px;
 }
 
-.section-box{
+.section-layout{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    margin: 0 10%;
-    
+    justify-content: space-around;
 }
 
-.box{
-    background-color: #facac2;
-    width: 50%;
+.section-text, .section-text-education{
+    color: grey;
+    width: 55%;
+    letter-spacing: 3px;
+    line-height: 25px;
 }
 
-.box-first{
-    width: 100%;
-    display: flex;
-    
+.section-subtitle, .section-subtitle-education{
+    font-size: 25px;
+    letter-spacing: 10px;
+    display: inline-block;
 }
 
-.box-second{
-   width: 60%;
+.section-link, .footer-items-links, .section-link-education, .section-link-work{
+    text-decoration: none;
+    font-weight: bolder;
+    color:#555050;
 }
 
-.box-third{
-    width: 40%;
+/* polaroid */
+
+.polaroid {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  }
+
+.polaroid:hover {
+    box-shadow: 0 0.2rem 1.6rem rgba(0,0,0,0.2);
 }
 
-.box.fourth{
+  .polaroid-img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .caption {
+    color: #555050;
+    font-family:'Nunito', sans-serif;;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2em;
+    text-decoration: none;
+  }
+
+  .item {
     width: 30%;
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  
+
+  /*Education */
+.section-education{
+margin-top: 5%;
 }
 
-.box-fifth{
-    width: 30%;
+.section-subtitle-education{
+    margin: 0;
 }
 
-.section-img{
-    height: 300px;
-    width: 50%;
+.sub-section{
+    margin-top: 3%;
+
 }
 
-.encrypter{
-    height: 300px;
-    background-image: url(../Img/encrypter2.png);
-    background-size: contain;
-    width: 43%;
+.section-subtitle-education{
+    letter-spacing: 3px;
 }
 
-.encrypter:hover{
-    background-image: none;
-    color: white;
+.section-text-education{
+width: 100%;
 }
 
-.section-text{
-    width: 57%;
-    color: white;
+.workplace{
+    margin-bottom: 1%;
 }
+.section-link-work{
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+
+.cv-button{
+    border: none;
+    background-color: white;
+    color: #555050;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 10%;
+}
+
+
+  
+/* footer styling */
 
 .footer-elements{
     display: flex;
@@ -125,35 +233,8 @@ body{
     margin:2%;
 }
 
-.footer-items-links{
-    text-decoration: none;
-    color: #eda496;
-}
-
 .footer-navbar{
     display: none;
 }
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    width: 80%;
-    color:#eda496;
-    cursor: pointer;
-    padding: 18px;
-    text-align: center;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
+
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: #b97c70;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
