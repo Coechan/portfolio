@@ -275,3 +275,134 @@ width: 100%;
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
 }
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets*/
+
+@media screen and (max-width:768px) {
+
+    .wrapper{
+        margin: 0 10%;
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    .main-introdution {
+        font-size: 16px;
+    }
+
+    .section-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-title {
+        font-size: 25px;
+        margin-top: 10%;
+    }
+    
+    .section-text, .section-text-education {
+        width: 95%;
+    }
+
+    .section-subtitle, .section-subtitle-education {
+        font-size: 20px;
+    }
+
+    .section-text-description{
+        font-size: 15px;
+    }
+
+    .item {
+        width: 70%;
+    }
+
+  .footer-items-links{
+        font-size: 13px;
+  }
+
+    .aboutme-title {
+    margin-top: 8%;
+    font-size: 25px;
+    }
+
+    .aboutme-text {
+        font-size: 15px;
+        line-height: 37px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 200px;
+    }
+
+    .aboutme-img {
+        height: 200px;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .wrapper{
+        margin: 0 5%;
+    }
+
+    .navbar {
+        font-size: 12px;
+    }
+
+    .main-title {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+
+    .main-introdution {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 18px;
+    }
+
+    .section-subtitle, .section-subtitle-education {
+        font-size: 17px;
+    }
+
+    .section-text-description {
+        font-size: 13px;
+    }
+
+    .section-text, .section-text-education {
+        font-size: 14px;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .caption {
+        font-size: 20px;
+    }
+
+    .footer-elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        height: 125px;
+    }
+
+    .aboutme-title {
+        font-size: 20px;
+    }
+
+    .aboutme-text {
+        font-size: 15px;
+        line-height: 31px;
+    }
+}
