@@ -142,7 +142,7 @@ body{
     display: inline-block;
 }
 
-.section-link, .footer-items-links, .section-link-education, .section-link-work{
+.section-link, .footer-items-links, .section-link-education, .section-link-work , .certification{
     text-decoration: none;
     font-weight: bolder;
     color:#555050;
@@ -198,20 +198,32 @@ margin-top: 5%;
 
 .sub-section{
     margin-top: 3%;
-
 }
 
 .section-subtitle-education{
     letter-spacing: 3px;
 }
 
+.section-education-item{
+    list-style-type: none;
+}
+
 .section-text-education{
 width: 100%;
+padding: 0%;
+}
+
+.certification-title{
+    text-decoration: none;
+    color: #555050;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .workplace{
     margin-bottom: 1%;
 }
+
 .section-link-work{
     font-size: 25px;
     margin-bottom: 1%;
